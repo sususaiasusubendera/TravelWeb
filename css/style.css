@@ -41,6 +41,13 @@ html::-webkit-scrollbar-thumb {
     background-color: var(--main-color);
 }
 
+.heading-title {
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 6rem;
+    color: var(--black);
+}
+
 section {
     padding: 5rem 10%;
 }
@@ -81,6 +88,34 @@ section {
     cursor: pointer;
     color: var(--black);
     display: none;
+}
+
+/* services */
+.services .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+    gap: 1.5rem;
+}
+
+.services .box-container .box {
+    padding: 3rem 2rem;
+    text-align: center;
+    background: var(--main-color);
+    cursor: pointer;
+}
+
+.services .box-container .box:hover {
+    background-color: var(--black);
+}
+
+.services .box-container .box img {
+    height: 7rem;
+}
+
+.services .box-container .box h3 {
+    color: var(--white);
+    font-size: 1.7rem;
+    padding-top: 1rem;
 }
 
 /* footer */
@@ -185,5 +220,9 @@ section {
 @media (max-width: 450px) {
     html {
         font-size: 50%;
+    }
+
+    .heading-title {
+        font-size: 3.5rem;
     }
 }

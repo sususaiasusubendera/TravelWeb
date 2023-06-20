@@ -33,8 +33,46 @@
     </section>
     <!-- header section ends -->
 
-    <!-- service section starts -->
-    <!-- service section ends -->
+    <!-- home section starts -->
+    <!-- home section ends -->
+
+    <!-- services section starts -->
+    <section class="services">
+        <h1 class="heading-title">Our Services</h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="assets/icon-1.png" alt="">
+                <h3>Adventure</h3>
+            </div>
+
+            <div class="box">
+                <img src="assets/icon-2.png" alt="">
+                <h3>Tour Guide</h3>
+            </div>
+
+            <div class="box">
+                <img src="assets/icon-3.png" alt="">
+                <h3>Trekking</h3>
+            </div>
+
+            <div class="box">
+                <img src="assets/icon-4.png" alt="">
+                <h3>Camp Fire</h3>
+            </div>
+
+            <div class="box">
+                <img src="assets/icon-5.png" alt="">
+                <h3>Off Road</h3>
+            </div>
+
+            <div class="box">
+                <img src="assets/icon-6.png" alt="">
+                <h3>Camping</h3>
+            </div>
+
+        </div>
+    </section>
+    <!-- services section ends -->
 
     <!-- footer section starts -->
     <section class="footer">
