@@ -34,6 +34,35 @@
     <!-- header section ends -->
 
     <!-- home section starts -->
+    <section class="home">
+        <div class="home-slider">
+            <div class="W">
+                <div class="slide" style="background:url() no-repeat">
+                    <div class="content">
+                        <span>Explore, Discover, Travel</span>
+                        <h3>Travel Arround the World</h3>
+                        <a href="package.php" class="btn">Discover More</a>
+                    </div>
+                </div>
+
+                <div class="slide" style="background:url() no-repeat">
+                    <div class="content">
+                        <span>Explore, Discover, Travel</span>
+                        <h3>Discover the New Places</h3>
+                        <a href="package.php" class="btn">Discover More</a>
+                    </div>
+                </div>
+
+                <div class="slide" style="background:url() no-repeat">
+                    <div class="content">
+                        <span>Explore, Discover, Travel</span>
+                        <h3>Make Your Tour Worthwhile</h3>
+                        <a href="package.php" class="btn">Discover More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- home section ends -->
 
     <!-- services section starts -->
