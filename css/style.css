@@ -45,7 +45,22 @@ html::-webkit-scrollbar-thumb {
     text-align: center;
     margin-bottom: 3rem;
     font-size: 6rem;
+    text-transform: uppercase;
     color: var(--black);
+}
+
+.btn {
+    display: inline-block;
+    background: var(--black);
+    margin-top: 1rem;
+    color: var(--white);
+    font-size: 1.7rem;
+    padding: 1rem 3rem;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: var(--main-color);
 }
 
 section {
@@ -104,6 +119,26 @@ section {
     background-size: cover !important;
     background-position: center !important;
     min-height:  60rem;
+}
+
+.home .slide .content {
+    width: 85rem;
+}
+
+.home .slide .content span {
+    display: block;
+    font-size: 2.2rem;
+    color: var(--light-white);
+    padding-bottom: 1rem;
+}
+
+.home .slide .content h3 {
+    font-size: 6vw;
+    color: var(--white);
+    text-transform: uppercase;
+    line-height: 1;
+    text-shadow: var(--text-shadow);
+    padding: 1rem 0;
 }
 
 /* services */
