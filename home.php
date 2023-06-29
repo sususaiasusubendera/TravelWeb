@@ -35,9 +35,9 @@
 
     <!-- home section starts -->
     <section class="home">
-        <div class="home-slider">
-            <div class="W">
-                <div class="slide" style="background:url() no-repeat">
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide" style="background:url(assets/slide-1.jpg) no-repeat">
                     <div class="content">
                         <span>Explore, Discover, Travel</span>
                         <h3>Travel Arround the World</h3>
@@ -45,7 +45,7 @@
                     </div>
                 </div>
 
-                <div class="slide" style="background:url() no-repeat">
+                <div class="swiper-slide slide" style="background:url(assets/slide-2.jpg) no-repeat">
                     <div class="content">
                         <span>Explore, Discover, Travel</span>
                         <h3>Discover the New Places</h3>
@@ -53,7 +53,7 @@
                     </div>
                 </div>
 
-                <div class="slide" style="background:url() no-repeat">
+                <div class="swiper-slide slide" style="background:url(assets/slide-3.jpg) no-repeat">
                     <div class="content">
                         <span>Explore, Discover, Travel</span>
                         <h3>Make Your Tour Worthwhile</h3>
@@ -61,6 +61,8 @@
                     </div>
                 </div>
             </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
         </div>
     </section>
     <!-- home section ends -->
