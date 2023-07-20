@@ -105,6 +105,25 @@
     </section>
     <!-- services section ends -->
 
+    <!-- home about section starts -->
+    <section class="home-about">
+        <div class="image">
+            <img src="assets/bochi-guitar.jpg" alt="">
+        </div>
+
+        <div class="content">
+            <h3>About Us</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, natus. Repellendus fugiat vitae dicta,
+                debitis sit molestiae. Officia assumenda odio, fugit eligendi vitae dignissimos veniam, quis iste ipsa
+                sapiente blanditiis!</p>
+            <a href="about.php" class="btn">Read More</a>
+        </div>
+    </section>
+    <!-- home about section ends -->
+
+    <!-- home packages section starts -->
+    <!-- home packages section ends -->
+
     <!-- footer section starts -->
     <section class="footer">
         <div class="box-container">
